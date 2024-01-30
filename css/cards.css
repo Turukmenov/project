@@ -1,0 +1,35 @@
+.cardsBlock {
+    width: 100%;
+    margin-top: 150px;
+    font-size: 12px;
+}
+.innerCardsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px auto 50px;
+    justify-content: center;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    border: 1px solid  var(--orange);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
+.cardsPhoto {
+    border: 5px solid var(--orange);
+    border-radius: 50%;
+    width: 205px;
+    height: 205px;
+    margin: 10px auto 0;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
